@@ -169,3 +169,79 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Compiled Object files, Static and Dynamic libs (Binary files)
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.hex
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+*.ncb
+*.sdf
+*.opensdf
+*.cache
+
+# Build directories
+build/
+Build/
+bin/
+Bin/
+lib/
+Lib/
+dist/
+output/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.log
+*.swp
+
+# CMake and Makefile files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.mk
+compile_commands.json
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# Qt
+*.pro.user
+*.qmake.stash
+
+# CLion
+cmake-build-*/
+
+# Xcode
+*.pbxuser
+*.xcworkspace/
+*.xcuserstate
+
+# Miscellaneous
+*.bak
+*.log
+*.tmp
+*.swap
+
